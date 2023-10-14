@@ -3,6 +3,10 @@ target = 9
 for i in range(len(nums)):
     for j in range(i + i, len(nums)):
         if nums[i] + nums[j] == target:
-            print(i, j) 
+            op = (i, j) 
+
+print(f"los datos son = {nums}")
+print(f"el objetivo es = {target}")
+print(f"los datos que su suma dan {target} están en {op}")
 
 
